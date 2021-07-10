@@ -16,5 +16,5 @@ TO USE:
 3. type 'snippet'
 4. Preferences: Configure User Snippet
 5. scroll to find javescript
-6. paste code below example snippet in javascript.json file
+6. paste code under example snippet in javascript.json file
 7. if example is snippet is uncommented, add "," at the "}" after "description"
