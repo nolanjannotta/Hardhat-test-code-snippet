@@ -11,7 +11,7 @@ Includes:
 
 
 TO USE:
-1. in VS Code
+1. be in VS Code
 2. command + shift + P
 3. type 'snippet'
 4. Preferences: Configure User Snippet
