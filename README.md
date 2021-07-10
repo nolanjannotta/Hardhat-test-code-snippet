@@ -1,6 +1,6 @@
 # VS-Code-Hardhat-test-code-snippet
 
-This code snippet works in VS Code and prduces boilerplate smart contract smoke test.
+This code snippet works in VS Code and produces boilerplate smart contract smoke test.
 
 Includes:
 1. 5 total wallets imported, 1st is deployer
