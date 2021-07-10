@@ -11,16 +11,19 @@ Includes:
 6. more to be added
 
 
-TO USE:
+TO INSTALL:
 1. be in VS Code
 2. command + shift + P
 3. type 'snippet'
 4. Preferences: Configure User Snippet
-5. scroll to find javescript
+5. scroll to find javascript
 6. paste code under example snippet in javascript.json file
-7. if example is snippet is uncommented, add "," at the "}" after "description"
+7. if example snippet is uncommented, add "," at the "}" after "description"
 8. change "prefix" to your choice. this is what you type in your empty file to paste the snippet -- default: testboi
-9. type prefix + enter -- type the name of contract file, press tab, then type name of contract instance (by convention, name of file in lowercase)
+
+TO USE:
+1. open empty javascript test file
+2. type prefix + enter -- type the name of contract file, press tab, then type name of contract instance (by convention, instance is name of file in lowercase)
 
 
 troubleshoot:
