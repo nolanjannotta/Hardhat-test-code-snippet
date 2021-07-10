@@ -29,4 +29,5 @@ TO USE:
 troubleshoot:
 1. npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers 
 2. be sure to add constructor arguments if any
+3. be sure name of contract variables match the contract file name
  
