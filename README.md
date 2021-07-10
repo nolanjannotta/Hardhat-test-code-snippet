@@ -20,10 +20,10 @@ TO USE:
 6. paste code under example snippet in javascript.json file
 7. if example is snippet is uncommented, add "," at the "}" after "description"
 8. change "prefix" to your choice. this is what you type in your empty file to paste the snippet -- default: testboi
+9. type prefix + enter -- type the name of contract file, press tab, then type name of contract instance (by convention, name of file in lowercase)
 
 
 troubleshoot:
-1. npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers
-2. npm install chai-as-promised
-3. be sure to add constructor arguments if any
+1. npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers 
+2. be sure to add constructor arguments if any
  
