@@ -1,0 +1,38 @@
+"Smart contract smoke test": {
+		"prefix": "testboi",
+		"body": [
+			"const { expect } = require('chai');",
+			"","require('chai')",
+				"\t.use(require('chai-as-promised'))",
+  				"\t.should()",
+				  "","describe('${1:*Contract_Name*}', function () {",
+					"\tlet address, deployer, wallet1, wallet2, wallet3, wallet4",
+				  
+					"","\tbefore(async () => {",
+					  "\t\tconst ${1:*Contract_Name*} = await ethers.getContractFactory('${1:*Contract_Name*}');",
+					  "\t\t${2:*Contract_Instance*} = await ${1:*Contract_Name*}.deploy();",
+					  "\t\t[deployer, wallet1, wallet2, wallet3, wallet4] = await ethers.getSigners();",
+					"\t})",
+					"","\tdescribe('deployment', async () => {",
+						"","\t\tit('from should equal deployer', async () => {",
+							"\t\t\tfrom = ${2:*Contract_Instance*}.deployTransaction.from;",
+							"\t\t\tfrom.should.equal(deployer.address)",
+						  "\t\t})",
+
+						"","\t\tit('Should have proper address', async function () {",
+					
+
+					
+						"","\t\t\taddress = ${2:*Contract_Instance*}.address;",
+						"\t\t\tconsole.log('contract:', address)",
+				  
+				  
+						"\t\t\texpect(address).to.be.properAddress;",
+				  
+					  "\t\t});",
+					"\t})",
+					"})"
+
+
+				
+		]
